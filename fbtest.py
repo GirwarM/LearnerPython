@@ -1,10 +1,7 @@
 from flask import Flask, request
 from pymessenger.bot import Bot
 import random
-#from flask import PAGE_ACCESS_TOKEN, VERIFY_TOKEN
-#from oauthlib.oauth1.rfc5849.endpoints import access_token
-#from win32comext.directsound.test.ds_record import event
-#from pymessenger import receipt
+
 import requests
 from botocore.vendored.requests.api import request
 app = Flask(__name__)
@@ -45,11 +42,4 @@ def get_message():
 
 if __name__=="__main__":
     app.run(port=5000,debug=True)
-            #ssl._create_default_https_context = ssl._create_unverified_context
-#req = urllib.request.Request('https://api.fullcontact.com/v3/person.enrich')
-#req.add_header('Authorization', 'Bearer tcFhQXZ2vQlS1w4dYlXtcnKmR60gGhrz')
-#data = json.dumps({'email': 'girwar.meena@gmail.com'})
-##response = urllib.request.urlopen(req, data)
-#person_response_reader = response.read()
-#person_result = json.loads(person_response_reader)
-#print( person_result)
+          
