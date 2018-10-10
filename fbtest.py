@@ -9,7 +9,7 @@ import requests
 from botocore.vendored.requests.api import request
 app = Flask(__name__)
 
-ACCESS_TOKEN="EAAabNAxUKosBAAcVZAJi33BQmR7Hv38ZB8brPpie7OvraFJlblceAnrcIBqVaZBRGyYwkcWsG1OVXzAN2y6MMZBCZCbZAHs51ZCIugYAvxvwZBNh1RTMkv108uMZBsW4VISkyi0DEXAJAt8UpeQIZAAhJF6ZBUOjUEnrBxON8Rz11GxTAZDZD"
+ACCESS_TOKEN="<add token for your FB page from developers.facebook.com>"
 VERIFY_TOKEN = "VERIFY_TOKEN"
 
 bot=Bot(ACCESS_TOKEN)
